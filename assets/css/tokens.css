@@ -1,0 +1,29 @@
+/* سوّي · الرموز. منسوخة من نظام التصميم (tokens.json). لا تكتب ألوانًا خارجها. */
+:root{
+  --qahwa:#22160F; --saffron:#F5A524; --hail:#7DB46C; --mist:#EDF2E6; --paper:#FAF9F5;
+  --saffron-ink:#B86E00; --hail-ink:#4F7F42; --white:#FFFFFF; --receipt-rule:#BDB3A8;
+
+  --surface:#EDF2E6; --surface-raised:#FFFFFF; --surface-inverse:#22160F;
+  --ink:#22160F; --ink-soft:#5B4A40; --ink-mute:#7A6A5E; --ink-inverse:#FFFFFF;
+  --line:#D5DCCB; --line-strong:#22160F;
+  --accent:#F5A524; --on-accent:#22160F; --accent-text:#B86E00; --success-text:#4F7F42;
+  --focus:#22160F; --danger:#A3401C; --on-danger:#FFFFFF;
+
+  --font-display:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --font-body:"IBM Plex Sans Arabic","Alexandria",system-ui,sans-serif;
+  --font-hand:"Aref Ruqaa Ink","Aref Ruqaa","IBM Plex Sans Arabic",serif;
+
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px;
+  --space-6:32px; --space-7:48px; --space-8:64px; --space-9:104px;
+  --radius-0:0; --radius-s:5px; --radius-m:8px; --radius-l:14px; --radius-full:999px;
+  --shadow-receipt:0 18px 40px -22px rgba(34,22,15,0.45);
+  --shadow-screen:0 20px 50px -30px rgba(34,22,15,0.4);
+}
+/* قسم بثيم القهوة داخل صفحة فاتحة */
+.theme-dark{
+  --surface:#22160F; --surface-raised:#33241A; --surface-inverse:#EDF2E6;
+  --ink:#FFFFFF; --ink-soft:#E9DFD6; --ink-mute:#A8968B; --ink-inverse:#22160F;
+  --line:#4A3628; --line-strong:#E9DFD6;
+  --accent-text:#F5A524; --success-text:#7DB46C; --focus:#F5A524; --danger:#F08A5D; --on-danger:#22160F;
+  background:var(--surface); color:var(--ink);
+}
