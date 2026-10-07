@@ -4,23 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>سوّي · خلّ الذكاء الاصطناعي يسوّيها</title>
-<meta name="description" content="سوّي تبني أنظمة ذكاء اصطناعي لشغل المكاتب في السعودية، وتنشر كل مشروع كامل بأرقامه المقاسة.">
+<meta name="description" content="الشغل اللي يتكرر عليكم كل يوم، نبني له نظام ذكاء اصطناعي يسوّيه، وننشر المشروع كامل بأرقامه المقاسة. جرّبوه مجانًا.">
 <meta property="og:title" content="سوّي · خلّ الذكاء الاصطناعي يسوّيها">
-<meta property="og:description" content="كل مشروع له إيصال: وش كان، وش صار، وكم كلّف.">
+<meta property="og:description" content="فرز إيميلات الموارد البشرية: ١٢ من ١٢ صح على رسائل جديدة. المشروع كامل ومجاني.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ar_SA">
+<meta property="og:url" content="https://asmaabdu221.github.io/sawwi-site/">
+<meta property="og:image" content="https://asmaabdu221.github.io/sawwi-site/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#22160F">
 <link rel="icon" href="assets/logos/sawwi-icon-dark.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/logos/sawwi-icon-dark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Aref+Ruqaa+Ink:wght@700&display=swap">
-<link rel="stylesheet" href="assets/css/tokens.css">
-<link rel="stylesheet" href="assets/css/components.css">
-<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/tokens.css?v=2">
+<link rel="stylesheet" href="assets/css/components.css?v=2">
+<link rel="stylesheet" href="assets/css/site.css?v=2">
 </head>
 <body class="sw">
-<a class="skip" href="#main">انتقلي إلى المحتوى</a>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
 
 <header class="top">
   <nav class="sw-nav" aria-label="الرئيسية">
@@ -28,10 +33,10 @@
       <a class="sw-nav__logo" href="./" aria-label="سوّي، الرئيسية"><img src="assets/logos/sawwi-primary-transparent-white.svg" alt="سوّي" width="112" height="34"></a>
       <ul>
         <li><a href="#projects">المشاريع</a></li>
-        <li><a href="#how">كيف نبنيها</a></li>
+        <li><a href="#compare">المقارنة</a></li>
         <li><a href="#path">الطريق</a></li>
       </ul>
-      <a class="sw-btn sw-btn--sm" href="#workshop">الورشة المجانية</a>
+      <a class="sw-btn sw-btn--sm" href="#start">جرّبوه مجانًا</a>
     </div>
   </nav>
 </header>
@@ -43,48 +48,38 @@
   <div class="wrap hero-grid">
     <div>
       <h1>خلّ الذكاء الاصطناعي يسوّيها<span class="dot">.</span></h1>
-      <p class="lede">نبني أنظمة ذكاء اصطناعي لشغل المكاتب في السعودية، وننشر كل مشروع كامل. وكل مشروع له إيصال: وش كان، وش صار، وكم كلّف.</p>
+      <p class="lede">الشغل اللي يتكرر عليكم كل يوم، نبني له نظام يسوّيه، ونعطيكم المشروع كامل تشغّلونه على أجهزتكم. وكل مشروع له إيصال: وش كان، وش صار، وكم كلّف.</p>
+      <a class="proof" href="#receipt">
+        <span class="proof__k">آخر مشروع</span>
+        <span class="proof__v">فرز إيميلات الموارد البشرية</span>
+        <span class="proof__n num"><b>١٢/١٢</b> صح</span>
+        <span class="proof__n num"><b>٠</b> ر.س</span>
+      </a>
       <div class="actions">
-        <a class="sw-btn" href="#projects">شوفي المشاريع</a>
-        <a class="sw-btn sw-btn--line" href="#workshop">الورشة المجانية<span class="soon">قريبًا</span></a>
+        <a class="sw-btn" href="#start">جرّبوه مجانًا</a>
+        <a class="sw-btn sw-btn--line" href="#projects">كل المشاريع</a>
       </div>
-      <p class="hero-note">جنبك إيصال أول مشروع منشور. الأرقام مقاسة على رسائل ما شافها النظام قبل.</p>
     </div>
 
-    <div class="sw-receipt sw-receipt--tilt sw-num print" role="figure" aria-label="إيصال مشروع فرز إيميلات الموارد البشرية">
+    <div class="sw-receipt sw-receipt--tilt sw-num print" id="receipt" role="figure" aria-label="إيصال مشروع فرز إيميلات الموارد البشرية">
       <div class="sw-receipt__head">
         <div class="sw-receipt__brand"><img src="assets/logos/sawwi-icon-dark.svg" alt="" width="30" height="30">سوّي</div>
-        <div class="sw-receipt__no">إيصال رقم ٠٠٠١<br>الرياض</div>
+        <div class="sw-receipt__no">إيصال رقم <span dir="ltr">٠٠١</span><br>الرياض</div>
       </div>
       <div class="sw-receipt__title">فرز إيميلات الموارد البشرية</div>
       <hr class="sw-receipt__cut">
-      <div class="sw-line"><span class="sw-line__k">قبل</span><span class="sw-line__dots"></span><span class="sw-line__v">تقرين كل رسالة بنفسك</span></div>
+      <div class="sw-line"><span class="sw-line__k">قبل</span><span class="sw-line__dots"></span><span class="sw-line__v">قراءة كل رسالة يدويًا</span></div>
       <div class="sw-line"><span class="sw-line__k">بعد</span><span class="sw-line__dots"></span><span class="sw-line__v">كل رسالة مصنّفة، والعاجل فوق</span></div>
       <hr class="sw-receipt__cut">
-      <div class="sw-receipt__sub">الدقة على ١٢ رسالة جديدة فيها خمسة فخاخ</div>
+      <div class="sw-receipt__sub">صح من ١٢ رسالة جديدة، فيها خمسة فخاخ</div>
       <div class="sw-line"><span class="sw-line__k">Claude</span><span class="sw-line__dots"></span><span class="sw-line__v">١٢ / ١٢</span></div>
       <div class="sw-line"><span class="sw-line__k">نموذج على جهازك</span><span class="sw-line__dots"></span><span class="sw-line__v">٩ / ١٢</span></div>
       <div class="sw-line"><span class="sw-line__k">قواعد وكلمات</span><span class="sw-line__dots"></span><span class="sw-line__v">٧ / ١٢</span></div>
-      <div class="sw-line"><span class="sw-line__k">الوقت الموفّر</span><span class="sw-line__dots"></span><span class="sw-line__v sw-line__v--todo">ما انقاس بعد</span></div>
       <hr class="sw-receipt__cut">
+      <div class="sw-line"><span class="sw-line__k">وقت فرز الـ١٢</span><span class="sw-line__dots"></span><span class="sw-line__v">٨٠ ثانية مع Claude</span></div>
       <div class="sw-receipt__total"><span>التكلفة</span><span>٠ ر.س</span></div>
-      <div class="sw-receipt__foot">بالنموذج المحلي أو القواعد · البيانات ما تطلع من جهازك</div>
+      <div class="sw-receipt__foot">بالنموذج المحلي أو القواعد، والبيانات ما تطلع من جهازك. Claude يحتاج اشتراك.</div>
       <div class="sw-receipt__stamp"><span class="sw-stamp sw-stamp--done"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>تمّت</b><small>مقاسة</small></span></span></div>
-    </div>
-  </div>
-</section>
-
-<!-- قبل ← بعد -->
-<section class="sec sec--raised" aria-labelledby="ba-title">
-  <div class="wrap">
-    <div class="sec-head">
-      <div><p class="label">قبل ← بعد</p><h2 class="h-l" id="ba-title">شغل يتكرر كل يوم، صار يسوّي نفسه</h2></div>
-      <p class="lede">ثلاث مهام بنينا لها أنظمة. اللي قسناه مكتوب برقمه، واللي لسه نقيسه مكتوب «ما انقاس بعد».</p>
-    </div>
-    <div class="ba-board">
-      <div class="sw-ba"><span class="sw-ba__task">فرز إيميلات قسم الموارد البشرية</span><span class="sw-ba__before">قراءة كل رسالة يدويًا</span><span class="sw-ba__arrow" aria-hidden="true"></span><span class="sw-ba__after sw-num">١٢/١٢<small>رسالة جديدة صنّفها صح</small></span></div>
-      <div class="sw-ba"><span class="sw-ba__task">حجز مواعيد العيادة بالمكالمة</span><span class="sw-ba__before">موظفة استقبال على الخط طول اليوم</span><span class="sw-ba__arrow" aria-hidden="true"></span><span class="sw-ba__after todo">ما انقاس بعد<small>وكيل صوتي يرد ويحجز</small></span></div>
-      <div class="sw-ba"><span class="sw-ba__task">قائمة المراجعين اللي لازم نتصل عليهم</span><span class="sw-ba__before">تقليب ملفات العيادة</span><span class="sw-ba__arrow" aria-hidden="true"></span><span class="sw-ba__after todo">ما انقاس بعد<small>شات بوت مربوط بنظام العيادة</small></span></div>
     </div>
   </div>
 </section>
@@ -92,64 +87,75 @@
 <!-- المشاريع -->
 <section class="sec" id="projects" aria-labelledby="projects-title">
   <div class="wrap">
-    <div class="sec-head">
-      <div><p class="label">المشاريع</p><h2 class="h-l" id="projects-title">كل مشروع هنا انبنى فعلًا</h2></div>
-      <p class="lede">المنشور منها تقدرين تنزّلينه وتشغّلينه على جهازك اليوم. والباقي ننشره لما نخلّص قياسه.</p>
-    </div>
-    <div class="projects">
-      <article class="sw-project">
-        <div class="sw-project__head"><span class="sw-project__no sw-num">إيصال ٠٠٠١</span><span class="sw-stamp sw-stamp--done sw-stamp--sm"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>تمّت</b></span></span></div>
-        <div><h3>فرز إيميلات الموارد البشرية</h3><p>يقرأ بريد القسم، يصنّف كل رسالة، ويقول لك أيها يحتاج رد اليوم. يشتغل بأمر واحد بدون حساب.</p></div>
-        <div class="sw-project__foot"><span class="sw-project__metric sw-num">١٢/١٢<small>دقة Claude على رسائل جديدة</small></span><a class="sw-project__link" href="https://github.com/Asmaabdu221/sawwi-projects/releases/tag/hr-email-sorter">نزّليه</a></div>
-      </article>
-      <div class="sw-project">
-        <div class="sw-project__head"><span class="sw-project__no">قريبًا</span><span class="sw-stamp sw-stamp--wait sw-stamp--sm"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>نشتغل</b></span></span></div>
-        <div><h3>وكيل استقبال العيادة</h3><p>يرد على المكالمة باللهجة السعودية، يشوف جدول الأطباء، يحجز، ويعيد التفاصيل قبل ما يحفظ.</p></div>
-        <div class="sw-project__foot"><span class="sw-project__metric">ما انقاس بعد<small>انبنى، والقياس والنشر قريبًا</small></span></div>
+    <h2 class="h-l" id="projects-title">مشروع منشور، تقدرون تشغّلونه اليوم</h2>
+
+    <article class="feature">
+      <div class="feature__text">
+        <div class="feature__head">
+          <span class="label">إيصال ٠٠١ · موارد بشرية</span>
+          <span class="sw-stamp sw-stamp--done sw-stamp--sm"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>تمّت</b></span></span>
+        </div>
+        <h3>فرز إيميلات الموارد البشرية</h3>
+        <p>يقرأ بريد القسم، ويصنّف كل رسالة: إجازة، رواتب، توظيف، شكوى، عاجل. ويقول لكم أيها يحتاج رد اليوم.</p>
+        <div class="sw-ba"><span class="sw-ba__before">قراءة كل رسالة يدويًا</span><span class="sw-ba__arrow" aria-hidden="true"></span><span class="sw-ba__after sw-num">١٢/١٢<small>صح على رسائل جديدة</small></span></div>
+        <ul class="needs">
+          <li><b>تحتاجون</b>كمبيوتر، وبرنامج Node.js المجاني</li>
+          <li><b>ما تحتاجون</b>حساب، ولا اشتراك، ولا برمجة</li>
+        </ul>
+        <div class="actions">
+          <a class="sw-btn" href="https://github.com/Asmaabdu221/sawwi-projects/releases/tag/hr-email-sorter">تحميل المشروع مجانًا</a>
+          <a class="sw-btn sw-btn--line" href="https://github.com/Asmaabdu221/sawwi-projects/tree/main/projects/hr-email-sorter">طريقة التشغيل</a>
+        </div>
       </div>
-      <div class="sw-project">
-        <div class="sw-project__head"><span class="sw-project__no">قريبًا</span><span class="sw-stamp sw-stamp--wait sw-stamp--sm"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>نشتغل</b></span></span></div>
-        <div><h3>ملخص عملاء العيادة</h3><p>شات بوت مربوط بنظام العيادة، يجهّز قائمة المراجعين اللي لازم نتصل عليهم مع ملخص كل واحد.</p></div>
-        <div class="sw-project__foot"><span class="sw-project__metric">ما انقاس بعد<small>انبنى، والقياس والنشر قريبًا</small></span></div>
+      <div class="shot-wrap">
+        <div class="sw-screen">
+          <div class="sw-screen__body">
+            <ul class="sw-mail">
+              <li><div>طلب إجازة سنوية<small>من موظف · ٩:١٢ ص</small></div><span class="sw-tag sw-tag--ok">إجازات</span></li>
+              <li><div>استفسار عن بدل السكن<small>من موظفة · ٩:٤٠ ص</small></div><span class="sw-tag">رواتب وبدلات</span></li>
+              <li><div>تقديم على وظيفة محاسب<small>من خارج الشركة · ١٠:٠٥ ص</small></div><span class="sw-tag">توظيف</span></li>
+              <li><div>ظروف طارئة<small>من موظفة · ١٠:٣١ ص</small></div><span class="sw-ann sw-ann--draw"><span class="sw-tag sw-tag--urgent">عاجل</span><svg class="sw-ann__ring" viewBox="0 0 100 60" preserveAspectRatio="none" aria-hidden="true"><path d="M20 8 C 45 -2, 92 4, 95 28 C 98 52, 50 60, 18 52 C -4 46, 2 14, 30 6"/></svg></span></li>
+            </ul>
+          </div>
+          <div class="sw-screen__cap"><span>بريد الموارد البشرية</span><span>من رسائل الاختبار</span></div>
+        </div>
+        <span class="sw-ann-note sw-ann--draw"><svg class="sw-ann-note__arrow" viewBox="0 0 30 46" aria-hidden="true"><path d="M10 44 C 16 32, 22 20, 18 4"/><path d="M11 12 L 18 3 L 25 12"/></svg>فهمها من الكلام</span>
       </div>
+    </article>
+
+    <div class="bench">
+      <h3 class="bench__title">على الطاولة</h3>
+      <p class="bench__note">انبنوا، ونقيسهم قبل ما ننشرهم. ما ننشر مشروع بدون إيصال.</p>
+      <ul class="bench__list">
+        <li><b>وكيل استقبال العيادة</b><span>يرد على المكالمة باللهجة السعودية، يشوف جدول الأطباء، ويحجز.</span><span class="sw-chip sw-chip--todo">ما انقاس بعد</span></li>
+        <li><b>ملخص عملاء العيادة</b><span>شات بوت مربوط بنظام العيادة، يجهّز قائمة المراجعين اللي لازم نتصل عليهم.</span><span class="sw-chip sw-chip--todo">ما انقاس بعد</span></li>
+      </ul>
     </div>
-    <p class="more">الكود كامل على <a href="https://github.com/Asmaabdu221/sawwi-projects">GitHub</a>، ومعه طريقة التشغيل وتقرير القياس.</p>
   </div>
 </section>
 
-<!-- كيف نبنيها -->
-<section class="sec sec--raised" id="how" aria-labelledby="how-title">
-  <div class="wrap how">
+<!-- المقارنة -->
+<section class="sec sec--raised" id="compare" aria-labelledby="compare-title">
+  <div class="wrap compare">
     <div>
-      <p class="label">كيف نبنيها</p>
-      <h2 class="h-l" id="how-title">نبنيها قدامك، على شاشة حقيقية</h2>
-      <p class="lede" style="margin-top:var(--space-4)">نوريك وين تصيب الأداة ووين تغلط، وتختارين على أساس الأرقام.</p>
-      <div class="engines-wrap">
-        <table class="engines num">
-          <caption class="label" style="text-align:start;caption-side:top">فرز الإيميلات بثلاث طرق، على نفس الـ١٢ رسالة</caption>
-          <thead><tr><th scope="col">الطريقة</th><th scope="col">صح</th><th scope="col">الوقت</th><th scope="col">التكلفة</th></tr></thead>
-          <tbody>
-            <tr><th scope="row">قواعد وكلمات</th><td><b>٧</b> من ١٢</td><td>أقل من ثانية</td><td>مجاني</td></tr>
-            <tr><th scope="row">نموذج على جهازك</th><td><b>٩</b> من ١٢</td><td>٣٣٦ ثانية</td><td>مجاني</td></tr>
-            <tr><th scope="row">Claude</th><td><b>١٢</b> من ١٢</td><td>٨٠ ثانية</td><td>اشتراك</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="how-note">النموذج المحلي غلط ثلاث مرات، لكنه نبّه على كل وحدة. القواعد مرّرت غلطتين بدون أي تنبيه.</p>
+      <h2 class="h-l" id="compare-title">نفس الـ١٢ رسالة، بثلاث طرق</h2>
+      <p class="lede">نوريكم وين تصيب كل طريقة ووين تغلط، وتختارون على أساس الأرقام.</p>
+      <p class="compare__note">النموذج اللي على جهازك غلط ثلاث مرات، لكنه نبّه على كل وحدة. القواعد مرّرت غلطتين بدون أي تنبيه.</p>
     </div>
-    <div class="shot-wrap">
-      <div class="sw-screen">
-        <div class="sw-screen__body">
-          <ul class="sw-mail">
-            <li><div>طلب إجازة سنوية<small>من موظف · ٩:١٢ ص</small></div><span class="sw-tag sw-tag--ok">إجازات</span></li>
-            <li><div>استفسار عن بدل السكن<small>من موظفة · ٩:٤٠ ص</small></div><span class="sw-tag">رواتب وبدلات</span></li>
-            <li><div>تقديم على وظيفة محاسب<small>من خارج الشركة · ١٠:٠٥ ص</small></div><span class="sw-tag">توظيف</span></li>
-            <li><div>ظروف طارئة<small>من موظفة · ١٠:٣١ ص</small></div><span class="sw-ann sw-ann--draw"><span class="sw-tag sw-tag--urgent">عاجل</span><svg class="sw-ann__ring" viewBox="0 0 100 60" preserveAspectRatio="none" aria-hidden="true"><path d="M20 8 C 45 -2, 92 4, 95 28 C 98 52, 50 60, 18 52 C -4 46, 2 14, 30 6"/></svg></span></li>
-          </ul>
-        </div>
-        <div class="sw-screen__cap"><span>بريد الموارد البشرية</span><span>رسائل الاختبار</span></div>
+    <div class="bars num" role="table" aria-label="مقارنة طرق الفرز">
+      <div class="bar" role="row">
+        <div class="bar__head" role="rowheader"><b>Claude</b><span>اشتراك · ٨٠ ثانية · البيانات تروح لـClaude</span></div>
+        <div class="bar__track" role="cell"><span class="bar__fill" style="--v:12"></span><span class="bar__val">١٢ من ١٢</span></div>
       </div>
-      <span class="sw-ann-note sw-ann--draw"><svg class="sw-ann-note__arrow" viewBox="0 0 30 46" aria-hidden="true"><path d="M10 44 C 16 32, 22 20, 18 4"/><path d="M11 12 L 18 3 L 25 12"/></svg>فهمها من الكلام</span>
+      <div class="bar" role="row">
+        <div class="bar__head" role="rowheader"><b>نموذج على جهازك</b><span>مجاني · ٣٣٦ ثانية · البيانات عندك</span></div>
+        <div class="bar__track" role="cell"><span class="bar__fill" style="--v:9"></span><span class="bar__val">٩ من ١٢</span></div>
+      </div>
+      <div class="bar" role="row">
+        <div class="bar__head" role="rowheader"><b>قواعد وكلمات</b><span>مجاني · أقل من ثانية · البيانات عندك</span></div>
+        <div class="bar__track" role="cell"><span class="bar__fill" style="--v:7"></span><span class="bar__val">٧ من ١٢</span></div>
+      </div>
+      <p class="bars__foot">المشروع يجرّب الطرق بالترتيب ويختار المتاح عندكم، فما يوقف أبدًا.</p>
     </div>
   </div>
 </section>
@@ -161,7 +167,7 @@
       <span class="sw-stamp sw-stamp--fail"><span class="sw-stamp__in"><span class="sw-stamp__mark"></span><b>ما نفع</b><small>وهذا السبب</small></span></span>
       <div>
         <p class="label" style="color:#7A6A5E">وهذي ما نفعت</p>
-        <h2 id="fail-title">أول قياس لفرز الإيميلات طلع ٨ من ٨. ورميناه.</h2>
+        <h2 id="fail-title">أول قياس طلع ٨ من ٨. ورميناه.</h2>
         <p>قسناه على نفس الرسائل اللي ضبطنا عليها الكلمات، فالرقم ما كان يقول شي. أعدنا القياس على ١٢ رسالة جديدة فيها خمسة فخاخ مقصودة، والقواعد جابت ٧ من ١٢. هذا الرقم اللي ننشره.</p>
         <p class="rule">من يومها، كل رقم عندنا ينقاس على رسائل ما شافها النظام قبل.</p>
       </div>
@@ -173,33 +179,30 @@
 <section class="sec theme-dark" id="path" aria-labelledby="path-title">
   <div class="wrap">
     <div class="sec-head">
-      <div><p class="label">الطريق</p><h2 class="h-l" id="path-title">ابدئي بمهمة وحدة</h2></div>
-      <p class="lede">ثلاث خطوات بالترتيب، وكل خطوة تكفي لحالها.</p>
+      <div><p class="label">الطريق</p><h2 class="h-l" id="path-title">ابدأوا بمهمة وحدة</h2></div>
+      <p class="lede">كل خطوة تكفي لحالها. أول خطوة متاحة اليوم.</p>
     </div>
     <ol class="path">
-      <li><h3>الورشة المجانية</h3><span class="price">مجانًا</span><p>تطلعين منها بأول أتمتة تشتغل على مهمة تتكرر عندك. الموعد والتسجيل <span class="soon">قريبًا</span></p></li>
-      <li><h3>سوّي نظام</h3><span class="price num">من ٤٩٠ ر.س</span><p>كورس تبنين فيه نظام استقبال وحجز للعيادات من الصفر، وتطلعين بنظام تعرضينه على عميل. الوحدات والموعد <span class="soon">قريبًا</span></p></li>
-      <li><h3>للشركات</h3><span class="price">حسب المشروع</span><p>نبني الأنظمة لشركتك وندرّب فريقك عليها. التواصل <span class="soon">قريبًا</span></p></li>
+      <li class="is-open"><h3>جرّبوا مشروع جاهز</h3><span class="price">مجانًا · اليوم</span><p>حمّلوا مشروع فرز الإيميلات وشغّلوه على رسائلكم.</p></li>
+      <li><h3>الورشة المجانية</h3><span class="price">مجانًا</span><p>تجون بمهمة تتكرر عندكم، وتطلعون وهي مؤتمتة. <span class="soon">الموعد قريبًا</span></p></li>
+      <li><h3>سوّي نظام</h3><span class="price num">من ٤٩٠ ر.س</span><p>كورس تبنون فيه نظام استقبال وحجز للعيادات من الصفر. <span class="soon">التفاصيل قريبًا</span></p></li>
     </ol>
   </div>
 </section>
 
-<!-- الورشة -->
-<section class="sec workshop" id="workshop" aria-labelledby="ws-title">
-  <div class="wrap ws">
+<!-- ابدأوا -->
+<section class="sec start" id="start" aria-labelledby="start-title">
+  <div class="wrap start__grid">
     <div>
-      <h2 id="ws-title">الورشة المجانية، قريبًا</h2>
-      <p>تجين بمهمة تتكرر عندك كل أسبوع، وتطلعين وهي مؤتمتة. نحدد الموعد ونفتح التسجيل هنا.</p>
-      <div class="actions"><a class="sw-btn sw-btn--ink" href="#projects">شوفي المشاريع لين ذاك الوقت</a></div>
+      <h2 id="start-title">جرّبوه بثلاث خطوات</h2>
+      <p>يشتغل على ثمان رسائل مثال أول ما تشغّلونه، وبعدها على رسائلكم.</p>
+      <div class="actions"><a class="sw-btn sw-btn--ink" href="https://github.com/Asmaabdu221/sawwi-projects/releases/tag/hr-email-sorter">تحميل المشروع مجانًا</a></div>
     </div>
-    <div class="card">
-      <ul>
-        <li><b>السعر</b><span>مجانًا</span></li>
-        <li><b>تحتاجين</b><span>لابتوب، ومهمة تتكرر عندك</span></li>
-        <li><b>تطلعين بـ</b><span>أول أتمتة تشتغل على شغلك</span></li>
-        <li><b>الموعد</b><span><span class="soon">قريبًا</span></span></li>
-      </ul>
-    </div>
+    <ol class="steps">
+      <li><b>ثبّتوا Node.js</b><span>برنامج مجاني من <a href="https://nodejs.org">nodejs.org</a>، نسخة ٢٠ أو أحدث.</span></li>
+      <li><b>حمّلوا المشروع وفكّوا الملف</b><span>من زر التحميل، ملف مضغوط واحد.</span></li>
+      <li><b>شغّلوه بأمر واحد</b><span><code dir="ltr">node sort-emails.mjs</code></span></li>
+    </ol>
   </div>
 </section>
 </main>
@@ -209,12 +212,12 @@
     <div class="foot-grid">
       <div>
         <img src="assets/logos/sawwi-primary-transparent.svg" alt="سوّي" width="140" height="43">
-        <p>نخلّي الذكاء الاصطناعي يشتغل في شغلك. تعليم عملي، وأنظمة تشتغل فعلًا.</p>
+        <p>نخلّي الذكاء الاصطناعي يشتغل في شغلكم. تعليم عملي، وأنظمة تشتغل فعلًا.</p>
       </div>
       <div>
         <h2>من سوّي</h2>
         <ul>
-          <li><a href="https://github.com/Asmaabdu221/sawwi-projects">مشاريع سوّي على GitHub</a></li>
+          <li><a href="https://github.com/Asmaabdu221/sawwi-projects">كل المشاريع على GitHub</a></li>
           <li><a href="https://asmaabdu221.github.io/sawwi-autopilot/">سوّي أوتوبايلوت</a></li>
         </ul>
       </div>
