@@ -184,9 +184,25 @@
     </div>
     <ol class="path">
       <li class="is-open"><h3>جرّبوا مشروع جاهز</h3><span class="price">مجانًا · اليوم</span><p>حمّلوا مشروع فرز الإيميلات وشغّلوه على رسائلكم.</p></li>
-      <li><h3>الورشة المجانية</h3><span class="price">مجانًا</span><p>تجون بمهمة تتكرر عندكم، وتطلعون وهي مؤتمتة. <span class="soon">الموعد قريبًا</span></p></li>
+      <li><h3>الورشة المجانية</h3><span class="price">مجانًا</span><p>تجون بمهمة تتكرر عندكم، وتطلعون وهي مؤتمتة. <a href="#workshop">نبّهوني بالموعد</a></p></li>
       <li><h3>سوّي نظام</h3><span class="price num">من ٤٩٠ ر.س</span><p>كورس تبنون فيه نظام استقبال وحجز للعيادات من الصفر. <span class="soon">التفاصيل قريبًا</span></p></li>
     </ol>
+
+    <div class="signup" id="workshop">
+      <div class="signup__intro">
+        <h3>نبّهوني لما تفتح الورشة</h3>
+        <p>نرسل لكم الموعد على بريدكم، ونستخدمه لهذا بس.</p>
+      </div>
+      <p class="signup__soon" id="signup-soon">التسجيل يفتح هنا قريبًا.</p>
+      <form id="signup" class="signup__form" data-endpoint="" novalidate hidden>
+        <input type="hidden" name="source" value="الرئيسية · الورشة">
+        <div class="signup__hp" aria-hidden="true"><label for="su-website">اتركوه فاضي</label><input id="su-website" name="website" tabindex="-1" autocomplete="off"></div>
+        <div class="sw-field" data-field="name"><label for="su-name">الاسم</label><input id="su-name" name="name" autocomplete="name" required maxlength="80"><span class="sw-field__error" id="su-name-e" hidden></span></div>
+        <div class="sw-field" data-field="email"><label for="su-email">البريد</label><input id="su-email" name="email" type="email" inputmode="email" autocomplete="email" dir="ltr" required maxlength="120" aria-describedby="su-email-e"><span class="sw-field__error" id="su-email-e" hidden></span></div>
+        <div class="sw-field signup__task" data-field="task"><label for="su-task">وش المهمة اللي تتكرر عندكم كل أسبوع؟ <span class="opt">اختياري</span></label><input id="su-task" name="task" maxlength="300" placeholder="مثلًا: تقرير الحضور الأسبوعي"></div>
+        <div class="signup__send"><button class="sw-btn" type="submit">نبّهوني</button><p class="signup__status" role="status" aria-live="polite"></p></div>
+      </form>
+    </div>
   </div>
 </section>
 
@@ -231,5 +247,6 @@
     <div class="legal"><span>سوّي © ٢٠٢٦</span><span>الرياض، المملكة العربية السعودية</span></div>
   </div>
 </footer>
+<script src="assets/js/signup.js?v=1" defer></script>
 </body>
 </html>
